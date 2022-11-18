@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/pin"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_pin"
+        android:title="Pin"
+    />
+    <item
+        android:id="@+id/touch"
+        android:icon="@drawable/ic_touch"
+        app:showAsAction="ifRoom"
+        android:title="Touch"
+        />
+
+    <item
+        android:id="@+id/paint"
+        android:icon="@drawable/ic_color2"
+        app:showAsAction="always"
+        android:title="Color Lens"
+        />
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_label2"
+        app:showAsAction="always"
+        android:title="Label"
+        />
+
+
+
+
+</menu>
